@@ -1,0 +1,130 @@
+//public class Test 
+//{
+//    public int aMethod()
+//    {
+//        int i = 0;
+//        i++;
+//        return i;
+//    }
+//    public static void main(String args[])
+//    {
+//        Test test = new Test();
+//        test.aMethod();
+//        int j = test.aMethod();
+//        System.out.println(j);
+//    }
+//}
+
+
+//
+//import java.util.*;
+//class Test 
+//{
+//    public static void main(String [] args) 
+//    {
+//        float f = 42.0f;
+//        float [] f1 = new float[2];
+//        float [] f2 = new float[2];
+//        float [] f3 = f1;
+//        long x = 42;
+//        f1[0] = 42.0f;
+//        
+//        
+//        System.out.println(f1);
+//        System.out.println(f2);
+//        System.out.println(f3);
+//
+//    }
+//}
+
+
+
+
+//public class Test 
+//{
+//    final static short x = 2;
+//    public static int y = 0;
+//    public static void main(String [] args) 
+//    {
+//        for (int z=0; z < 3; z++) 
+//        {
+//            switch (z) 
+//            {
+//                case x: System.out.print("0 ");
+//                case x-1: System.out.print("1 ");
+//                case x-2: System.out.print("2 ");
+//            }
+//        }
+//    }
+//}
+
+
+
+
+
+
+//public class Test 
+//{
+//    static boolean b1, b2;
+//    public static void main(String [] args) 
+//    {
+//        int x = 0;
+//        if ( !b1 ) /* Line 7 */
+//        {
+//            if ( !b2 ) /* Line 9 */
+//            {
+//                b1 = true;
+//                x++;
+//                if ( 5 > 6 ) 
+//                {
+//                    x++;
+//                }
+//                if ( !b1 ) 
+//                    x = x + 10;
+//                else if ( b2 = true ) /* Line 19 */
+//                    x = x + 100;
+//                else if ( b1 | b2 ) /* Line 21 */
+//                    x = x + 1000;
+//            }
+//        }
+//        System.out.println(x);
+//    }
+//}
+
+
+
+
+
+
+
+
+
+//
+//class Test 
+//{ 
+//    public static void main(String[] args) 
+//    {
+//        int i1 = 5; 
+//        int i2 = 6; 
+//        String s1 = "7"; 
+//        System.out.println(i1 + i2 + s1); /* Line 8 */
+//    } 
+//}
+
+
+public class Test 
+{
+    public static void main(String [] args) 
+    {
+        Dog [][] theDogs = new Dog[3][];
+        System.out.println(theDogs[2][0].toString());
+    }
+}
+class Dog { }
+
+
+
+
+
+
+

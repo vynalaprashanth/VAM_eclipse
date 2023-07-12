@@ -1,0 +1,21 @@
+package Serialization;
+import java.io.*;
+public class Employee implements serializable{
+
+	int id;
+	String name;
+	int salary;
+	transient int ssn;
+	 
+	
+	Employee(int id,String name,int salary,int ssn){
+		
+		id=id;
+		
+		
+	}
+	
+	
+	
+	
+}

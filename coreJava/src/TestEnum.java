@@ -1,0 +1,21 @@
+
+public class TestEnum {
+
+	public static void main(String[] args) {
+
+		Payments pt= Payments.CREDITCARD;
+		
+		//System.out.println(pt);
+		Payments[] values = Payments.values();
+		for (Payments payments : values) {
+			System.out.println(payments);
+			System.out.println(payments.ordinal());
+			
+			System.out.println(payments.getFee());
+		}
+		
+		
+		
+	}
+
+}

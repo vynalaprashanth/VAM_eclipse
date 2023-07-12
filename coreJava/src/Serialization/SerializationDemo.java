@@ -1,0 +1,23 @@
+package Serialization;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class SerializationDemo {
+
+	public static void main(String[] args) throws IOException {
+
+		
+		FileOutputStream fos=new FileOutputStream
+	("C:\\Users\\PrashanthVynala\\OneDrive - ValueMomentum, Inc\\Desktop\\prashanth\\coreJava\\bin\\Serialization\\serialize.ser");
+		ObjectOutputStream ous=new ObjectOutputStream(fos);
+		
+		Employee emp=new Employee(1, "Prashanth", 100000, 8396);
+		
+	ous.writeObject(emp);
+	
+	System.out.println("Employee Details Serialized");
+	}
+
+}

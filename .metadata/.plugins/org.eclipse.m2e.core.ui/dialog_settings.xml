@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\PrashanthVynala\Downloads\ClaimCenter"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\VAM8396_Miniproject"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\VAM8200_Miniproject"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\VAM_Project"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\QL7_Maven_Project\SampleMavenProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\PrashanthVynala\OneDrive - ValueMomentum, Inc\Documents\Venny\Cucumber Practice"/>
+			<item value="C:\Users\PrashanthVynala\OneDrive - ValueMomentum, Inc\Desktop\prashanth\MavenProjectGT\src\main"/>
+			<item value="C:\Users\PrashanthVynala\Downloads"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\VAM PROJECT prashanth"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\QL7_Maven_Project\SampleMavenProject\pom.xml"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\VAM_Project\VAMAppProject\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="cucumber"/>
+			<item value="Cucumber.Practice"/>
+		</list>
+		<list key="groupId">
+			<item value="cucumber"/>
+			<item value="Cucumber"/>
+		</list>
+		<list key="artifactId">
+			<item value="Practice"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Excel"/>
+			<item value="Prashanth"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Excel"/>
+			<item value="Pr11"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

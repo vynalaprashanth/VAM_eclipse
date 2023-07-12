@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AppMaven/VAM8200_Miniproject&apos; to &apos;VAM8396_Miniproject&apos;" description="Rename resource &apos;VAM8200_Miniproject&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="VAM8200_Miniproject" name="VAM8396_Miniproject" stamp="1688461667312" updateReferences="true"/>
+</session>

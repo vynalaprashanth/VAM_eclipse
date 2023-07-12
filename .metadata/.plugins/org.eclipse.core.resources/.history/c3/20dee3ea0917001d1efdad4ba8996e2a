@@ -1,0 +1,88 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+class loginservice {
+	
+static String[] username= {"prashanth","qatrainer","qatrainer"};
+static String[] password= {"12","box","admin123"};
+	static WebDriver driver;
+	static String appurl = "https://www.mycontactform.com/";
+    public static void main(String[] args) throws InterruptedException {
+		
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("start-fullscreen");
+			driver = new ChromeDriver(options);
+			int new1=username.length;
+			driver.navigate().to("https://www.mycontactform.com/");
+					for(int i=0;i<new1;i++) {
+			//launch browser
+		//	driver.navigate().to("https://www.google.com/");
+		//	driver.navigate().refresh()
+            
+		
+            //title
+            System.out.println(driver.getTitle());
+            
+            //url
+            System.out.println(driver.getCurrentUrl());
+            
+            if(driver.getPageSource().contains("G-mail")) {
+            	System.out.println("step verified");
+            	
+            }else
+            {
+            	System.out.println("step not verified");
+            }
+            driver.findElement(By.name("user")).sendKeys(username[i]);
+            driver.findElement(By.name("pass")).sendKeys(password[i]);
+            
+            WebElement submit = driver.findElement(By.name("btnSubmit"));
+            
+            if(submit.isEnabled()) {
+            	submit.click();
+            	
+            }
+            try {
+            	 String usermessage = driver.findElement(By.id("right_col_top_err")).getText();
+            	 System.out.println("Login Fail"+"\t"+usermessage);
+            }catch(NoSuchElementException e) {
+            e.printStackTrace();
+            }
+            //sign out
+            try {
+            	WebElement logout = driver.findElement(By.linkText("Logout"));
+            	if(logout.isEnabled()) {
+            		logout.click();
+            		System.out.println("Login Success");
+            	}
+            }
+            	
+            	catch(NoSuchElementException e) {
+            		e.printStackTrace();
+            		System.out.println(e.getMessage());
+            	}
+            	Thread.sleep(3000);
+            	
+            
+             				
+					}
+					driver.close();
+    }
+}
+
+
+				 
+		
+		
+
+
+
